@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Modeller</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style3.css" />
+</head>
+
+<body>
+    <div class="page-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="mainNavbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="main.html?skipIntro=1#home">Home</a></li>
+                <li><a href="coder.html">Creative Developer</a></li>
+                <li><a href="3d.html">3D Modeller</a></li>
+                <li><a href="editor.html">Video Editor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FLOATING MENU -->
+    <button class="floating-menu-btn" id="floatingMenuBtn" aria-label="Open menu">
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- OVERLAY MENU -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-top">
+            <button class="menu-close" id="menuClose" aria-label="Close menu">✕</button>
+            <a href="main.html?skipIntro=1#contact" class="menu-contact-btn">CONTACT NOW</a>
+        </div>
+
+        <div class="menu-center">
+            <a href="main.html?skipIntro=1#home" class="menu-link">HOME</a>
+            <a href="coder.html" class="menu-link">CREATIVE DEVELOPER</a>
+            <a href="3d.html" class="menu-link">3D MODELLER</a>
+            <a href="editor.html" class="menu-link">VIDEO EDITOR</a>
+        </div>
+
+        <div class="menu-bottom">
+            <div class="menu-socials">
+                <a href="#">INSTAGRAM ↗</a>
+                <a href="#">DRIBBBLE ↗</a>
+                <a href="#">TWITTER ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="page-wrapper">
+        <!-- HERO -->
+        <section class="hero-section">
+            <div class="hero-icon reveal reveal-up">
+                <img src="Sources/blender.png" alt="3D Icon">
+            </div>
+
+            <h1 class="reveal reveal-up delay-1">3D Modeller</h1>
+
+            <p class="hero-description reveal reveal-up delay-2">
+                I have solid experience using Blender and can assist you in creating property assets,
+                including both organic objects (such as plants and fruits) and non-organic items
+                (such as buildings and props). I'm capable of producing them in various styles,
+                whether for advertisements, showcases, or cinematic visuals.
+            </p>
+
+            <a class="hero-button reveal reveal-up delay-3" href="#preview">
+                Preview
+            </a>
+        </section>
+
+        <!-- SHOWCASE -->
+        <section class="showcase-section" id="preview">
+            <article class="showcase-card reveal reveal-up" id="preview">
+                <!-- SHOWCASE 1 -->
+                <div class="showcase-image">
+                    <iframe src="https://www.youtube.com/embed/1nPAnlo8g2I" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="showcase-meta">
+                    <div class="meta-left">
+                        <h3>Client</h3>
+                        <span>Personal Project</span>
+                    </div>
+
+                    <div class="meta-right">
+                        <h3>Product Duration</h3>
+                        <span>2 - 3 Weeks</span>
+                    </div>
+                </div>
+
+                <div class="showcase-concept">
+                    <h3>Concept</h3>
+                    <p>
+                        This project is a cinematic 3D environment that combines visual elements inspired by Japanese
+                        and Chinese dynasty architecture into a single atmosphere. The main goal was to create a scene
+                        that captures a historical fantasy mood while maintaining cinematic composition and
+                        environmental detail.
+                    </p>
+                    <p>
+                        I focused on building an immersive setting by arranging architectural assets, adjusting
+                        lighting, and composing camera angles to support the storytelling atmosphere. The project was
+                        developed to explore how cultural visual references can be blended into one cohesive environment
+                        while delivering a cinematic presentation.
+                    </p>
+                </div>
+                <div class="showcase-key-skills">
+                    <h3>Key Skills Applied</h3>
+                    <ul>
+                        <li>Material setup and texture refinement</li>
+                        <li>UV unwrapping and mapping workflow</li>
+                        <li>Modifier stack usage</li>
+                        <li>HDRI environment lighting</li>
+                        <li>Scene composition and depth arrangement</li>
+                        <li>Camera path and cinematic framing</li>
+                        <li>Rendering optimization</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="showcase-card reveal reveal-up delay-1">
+                <!-- SHOWCASE 2 -->
+                <div class="showcase-image">
+                    <iframe src="https://www.youtube.com/embed/yC4zzNVPhv0" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="showcase-meta">
+                    <div class="meta-left">
+                        <h3>Client</h3>
+                        <span>Personal Project</span>
+                    </div>
+
+                    <div class="meta-right">
+                        <h3>Product Duration</h3>
+                        <span>2 - 3 Weeks</span>
+                    </div>
+                </div>
+
+                <div class="showcase-concept">
+                    <h3>Concept</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                </div>
+            </article>
+
+            <!-- <article class="showcase-card reveal reveal-up delay-2">
+                <div class="showcase-image">
+                    <iframe src="https://drive.google.com/file/d/1Ze3BfD0TVNcpZh_HgFm8vNERqOUbqEDI/preview"
+                        allow="autoplay">
+                    </iframe>
+                </div>
+
+                <div class="showcase-meta">
+                    <div class="meta-left">
+                        <h3>Client</h3>
+                        <span>Personal Project</span>
+                    </div>
+
+                    <div class="meta-right">
+                        <h3>Product Duration</h3>
+                        <span>2 - 3 Weeks</span>
+                    </div>
+                </div>
+
+                <div class="showcase-concept">
+                    <h3>Concept</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                </div>
+            </article> -->
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact-section">
+            <div class="contact-inner">
+                <div class="contact-left reveal reveal-left">
+                    <h2><span>Let’s Work</span><span>Together</span></h2>
+
+                    <div class="contact-meta">
+                        <p>Based in, Australia<br>Sydney</p>
+
+                        <p>
+                            Creative Developer,<br>
+                            3D Modeller and Video editor
+                        </p>
+                    </div>
+
+                    <a href="mailto:yourname@example.com" class="contact-button">
+                        Contact Now
+                    </a>
+                </div>
+
+                <div class="contact-right reveal reveal-right delay-1">
+                    <div class="contact-image-card">
+                        <img src="Sources/Salju.jpeg" alt="Hazel portrait">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-bottom contact-bottom-reveal">
+                <p>
+                    Based in Australia, I Am a multi - skilled creative with experience in coding,
+                    3D Modelling, and Video Editing. My passion for visual storytelling, clean design,
+                    and technical precision is reflected through my work.
+                </p>
+
+                <div class="social-buttons">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="global.js"></script>
+</body>
+
+</html>

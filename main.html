@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Hazel Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="Sources/Vid3.mp4" type="video/mp4">
+    </video>
+
+    <div class="intro-screen" id="intro">
+        <div class="intro-icons">
+            <img src="Sources/aftereffect.png" alt="After Effects" class="intro-logo">
+            <img src="Sources/vscode.png" alt="VS Code" class="intro-logo">
+            <img src="Sources/blender.png" alt="Blender" class="intro-logo">
+            <img src="Sources/Unity.png" alt="Unity" class="intro-logo">
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="page-glow"></div>
+
+        <button class="floating-menu-btn" id="floatingMenuBtn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="menu-overlay" id="menuOverlay">
+            <div class="menu-top">
+                <button class="menu-close" id="menuClose" aria-label="Close menu">✕</button>
+                <a href="#contact" class="menu-contact-btn">CONTACT NOW</a>
+            </div>
+
+            <div class="menu-center">
+                <a href="#home" class="menu-link">HOME</a>
+                <a href="#about" class="menu-link">ABOUT</a>
+                <a href="#projects" class="menu-link">PROJECTS</a>
+                <a href="#contact" class="menu-link">CONTACT</a>
+            </div>
+
+            <div class="menu-bottom">
+                <div class="menu-socials">
+                    <a href="#">INSTAGRAM ↗</a>
+                    <a href="#">DRIBBBLE ↗</a>
+                    <a href="#">TWITTER ↗</a>
+                </div>
+            </div>
+        </div>
+
+        <header class="navbar home-animate nav-anim" id="mainNavbar">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="hero" id="home">
+            <section class="hero-text home-animate text-anim reveal-left delay-2">
+                <h1>
+                    <span class="hero-prefix">Hi, I am </span>
+                    <span class="hero-name">Hazel</span>
+                </h1>
+
+                <h2>Developer, 3D Modeller and Video Editor</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+
+                <div class="hero-actions home-animate actions-anim reveal delay-3">
+                    <a href="#about" class="btn">More About Me</a>
+
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/benedictus-fraderic-a79218322/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BY%2BCHftOJTz6oZnzvVooa%2Fg%3D%3D"
+                            aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">◎</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hero-image home-animate image-anim reveal-right delay-4">
+                <div class="image-card">
+                    <img src="Sources/Opera.jpeg" alt="Hazel portrait" />
+                </div>
+            </section>
+        </main>
+
+        <!-- page 2 -->
+        <section class="about-section reveal" id="about">
+            <div class="about-content reveal delay-1">
+                <h2 class="reveal delay-2">Who Am I?</h2>
+
+                <p class="reveal delay-3">
+                    Hi! I'm Hazel, a creative-tech enthusiast with experience in coding, 3D modeling, and video editing.
+                    In coding, I work with HTML/CSS for frontend, Java and Python for object-oriented programming,
+                    and Arduino for small systems like fingerprint locks, pin pads, servos, and sensors.
+                    I’ve built login pages, Arduino prototypes, and helped friends with simple websites.
+                    In 3D modeling, I use Blender to design rooms, create objects, and set up cinematic camera movement
+                    to bring scenes to life. In video editing, I use Adobe After Effects to create AMVs,
+                    cinematic sequences, and gaming edits that focus on rhythm and visual impact.
+                </p>
+
+                <a href="Sources/Hazel_CV.pdf" class="about-btn reveal delay-4" download>Download CV</a>
+            </div>
+        </section>
+
+        <!-- page 3 -->
+        <section class="projects-section reveal" id="projects">
+            <div class="projects-inner">
+                <div class="project-card reveal-left delay-1">
+                    <a href="coder.html" class="project-image-link">
+                        <div class="project-image">
+                            <img src="Sources/CodingCover.jpeg" alt="Creative Developer Project">
+                        </div>
+                    </a>
+
+                    <div class="project-meta">
+                        <div class="project-dots dots-1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Creative Developer</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal delay-2">
+                    <a href="3d.html" class="project-image-link">
+                        <div class="project-image">
+                            <img src="Sources/3dCover.jpeg" alt="3D Modeller Project">
+                        </div>
+                    </a>
+
+                    <div class="project-meta">
+                        <div class="project-dots dots-2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>3D Modeller</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-right delay-3">
+                    <a href="editor.html" class="project-image-link">
+                        <div class="project-image">
+                            <img src="Sources/videoCover.jpeg" alt="Video Editing Project">
+                        </div>
+                    </a>
+
+                    <div class="project-meta">
+                        <div class="project-dots dots-3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Video Editing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- page 4 -->
+        <section class="more-about-section reveal" id="more-about">
+            <div class="about-grid">
+                <div class="about-label reveal-left delay-1">
+                    <h2>AWARDS</h2>
+                </div>
+
+                <div class="about-list reveal-right delay-2">
+                    <!-- <div class="about-item">
+                        <h3>Creative Achievement</h3>
+                        <p>2025</p>
+                        <span>Recognized for digital creative exploration</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Design Recognition</h3>
+                        <p>2024</p>
+                        <span>Selected project showcase</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Personal Project Highlight</h3>
+                        <p>2023</p>
+                        <span>Independent development work</span>
+                    </div> -->
+                </div>
+
+                <div class="about-label reveal-left delay-1">
+                    <h2>EXPERIENCE</h2>
+                </div>
+
+                <div class="about-list reveal-right delay-2">
+                    <!-- <div class="about-item">
+                        <h3>Creative Developer</h3>
+                        <p>Frontend / Java / Arduino</p>
+                        <span>Website and interactive systems</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>3D Modeller</h3>
+                        <p>Blender</p>
+                        <span>Environment and object design</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Video Editor</h3>
+                        <p>Premiere Pro</p>
+                        <span>AMV, cinematic, visual edits</span>
+                    </div> -->
+                </div>
+
+                <div class="about-label reveal-left delay-1">
+                    <h2>STACK & TOOLS</h2>
+                </div>
+
+                <div class="about-list reveal-right delay-2">
+                    <div class="about-item">
+                        <h3>Programming</h3>
+                        <p>HTML / CSS / JavaScript / Java / Python</p>
+                        <span>Frontend + system logic</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Design</h3>
+                        <p>Blender / Photoshop</p>
+                        <span>3D + visual assets</span>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Editing</h3>
+                        <p>Premiere Pro</p>
+                        <span>Video production workflow</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- page 5 -->
+        <section class="contact-section reveal" id="contact">
+            <div class="contact-inner">
+                <div class="contact-left reveal-left delay-1">
+                    <h2>Let’s Work<br>Together</h2>
+
+                    <div class="contact-meta">
+                        <p>Based in, Australia<br>Sydney</p>
+
+                        <p>
+                            Creative Developer,<br>
+                            3D Modeller and Video editor
+                        </p>
+                    </div>
+
+                    <a href="#" class="contact-main-btn">Contact Now</a>
+                </div>
+
+                <div class="contact-right reveal-right delay-2">
+                    <div class="contact-image-card">
+                        <img src="Sources/Salju.jpeg" alt="Hazel portrait">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-bottom reveal delay-3">
+                <p>
+                    Based in Australia, I Am a multi-skilled creative with experience in coding, 3D Modelling,
+                    and Video Editing. My passion for visual storytelling, clean design, and technical precision
+                    is reflected through my work.
+                </p>
+
+                <div class="contact-social-buttons">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
