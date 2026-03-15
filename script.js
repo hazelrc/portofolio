@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
             document.body.classList.remove("intro-active");
             handleReveal();
             handleScrollMenu();
-            history.replaceState({}, "", "main.html#home");
+            history.replaceState({}, "", "index.html#home");
         } else {
             setTimeout(() => {
                 intro.style.display = "none";
